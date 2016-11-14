@@ -1,0 +1,52 @@
+2016年11月14日15:58:48
+
+1 新建t测试文件
+mkdir banben
+cd banben
+vim test.txt
+添加  first 然后退出
+
+2 第一次提交
+git add test.txt
+git commit -m "第一次提交"
+
+3 第二次提交
+vim test.txt
+添加 second 然后退出
+
+git add test.txt
+git commit -m "第二次提交"
+
+
+4 第3次提交
+vim test.txt
+添加 three 然后退出
+
+git add test.txt
+git commit -m "第3次提交"
+
+5 回到第一个版本
+查看提交记录
+git log --pretty=oneline    
+git log 
+
+会显示  commit_id很重要
+commit d1b1891c1ad33fd5e10003bebabbb22bed799390
+什么人
+什么 时候修改的
+
+
+git reset --hard commitid
+
+git reflog
+查看版本跳转历史
+
+
+
+
+
+
+
+
+
+
