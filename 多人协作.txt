@@ -18,7 +18,7 @@ git clone xxx
 git checkout -b dev
 git push origin dev  就会报错
 
-git pull 报错    --> git branch --ser_upstream origin dev
+git pull 报错    --> git branch --set-upstream origin dev
 
 git pull           // 如果没有冲突就ok了,如果有冲突解决后再上传服务器
 git commit -m "merge"
